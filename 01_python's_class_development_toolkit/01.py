@@ -14,7 +14,10 @@ class Circle(object):
 
 	def area(self):
 		"Perform quadrature on a shape of uniform radius"
-		return math.pi * self.radius ** 2.0
+		# return math.pi * self.radius ** 2.0
+		p = self.perimeter()
+		r = p / math.pi / 2.0
+		return math.pi  * r ** 2.0
 
 
 	def perimeter(self):
