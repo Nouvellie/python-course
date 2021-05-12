@@ -1,5 +1,4 @@
 # PYTHON COURSE
-## PYTHON COURSE
 
 ## Requirements
 - [Libraries (conda).](https://github.com/Nouvellie/python-course/blob/main/requirements.md)
